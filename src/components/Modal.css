@@ -1,0 +1,43 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: black; /* Fondo negro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    position: relative; /* Para que el botón se posicione correctamente */
+    color: white
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black; /* Fondo negro */
+    color: #4CAF50; /* Texto verde oscuro */
+    border: 2px solid #4CAF50; /* Borde verde oscuro */
+    border-radius: 50%; /* Botón redondo */
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .close-button:hover {
+    background-color: #4CAF50; /* Fondo verde oscuro al pasar el mouse */
+    color: white; /* Texto blanco al pasar el mouse */
+  }
+  

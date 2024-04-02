@@ -1,0 +1,69 @@
+.search-page {
+    background-color: #000; /* Fondo negro */
+    padding: 20px;
+    position: relative;
+  }
+  
+  .search-input {
+    width: calc(100% - 40px); /* Ancho del 100% menos el padding de 20px a cada lado */
+    margin-bottom: 10px; /* Menos espacio de separación */
+    height: 40px; /* Altura un poco más alta */
+    border-radius: 20px; /* Bordes estilo "()" */
+    padding: 0 20px; /* Espaciado interno */
+    border: none; /* Elimina el borde */
+    background-color: #1E1E1E; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+  }
+  
+  .reset-button {
+    background-color: #4CAF50; /* Verde oscuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .character-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas por fila */
+    gap: 20px;
+  }
+  
+  .character-card {
+    background-color: #1E1E1E; /* Color de fondo para las tarjetas */
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .character-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .character-name {
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    background-color: #4CAF50; /* Verde oscuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+  }
+  

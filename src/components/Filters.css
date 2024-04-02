@@ -1,0 +1,44 @@
+.filters-container {
+    background-color: #000; /* Fondo negro */
+    padding: 20px;
+    display: flex; /* Alinea los elementos en línea */
+  }
+  
+  .filter-item {
+    margin-right: 20px; /* Espacio entre los elementos */
+  }
+  
+  .filter-item:last-child {
+    margin-right: 0; /* Elimina el espacio del último elemento */
+  }
+  
+  label {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #000; /* Fondo negro */
+    color: white; /* Texto blanco */
+    border: 1px solid #004d00; /* Borde verde oscuro */
+  }
+  
+  select:hover {
+    border-color: #003300; /* Cambia el color del borde al pasar el mouse */
+  }
+  
+  .reset-button {
+    background-color: #004d00; /* Verde oscuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #003300; /* Cambia el color al pasar el mouse */
+  }
+  
